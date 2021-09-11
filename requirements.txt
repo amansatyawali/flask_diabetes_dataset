@@ -21,3 +21,4 @@ virtualenv==20.0.33
 virtualenv-clone==0.5.4
 Werkzeug==2.0.1
 zipp==3.4.0
+gunicorn
