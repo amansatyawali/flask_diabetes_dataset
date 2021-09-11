@@ -35,5 +35,5 @@ def preditct() :
   else : 
     prediction = 'Non diabetic'
   return render_template('prediction.html', prediction = prediction)
-  
-app.run(debug = True)
+if __name__ == '__main__' :
+  app.run(debug = True)
